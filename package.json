@@ -1,0 +1,29 @@
+{
+  "author": "Aleksandr Boichenko <banzalik@gmail.com>",
+  "name": "gost",
+  "version": "0.0.1",
+  "description": "ГОСТ - шаблон для генерации собственных стилистических справочников (style guides)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banzalik/gost.git"
+  },
+  "engines": {
+    "node": "0.9 | 0.10"
+  },
+  "scripts": {
+    "build": "./node_modules/enb/bin/enb make",
+    "postinstall": "npm run-script build"
+  },
+  "dependencies": {
+    "enb": ">=0.13.9",
+    "bh": ">=3.2.2",
+    "enb-stylus": ">=1.1.5",
+    "borschik": "^1.3.2",
+    "enb-bembundle": "^1.0.2",
+    "enb-bh": "^0.4.0",
+    "enb-borschik": "^1.4.0"
+  },
+  "private": false,
+  "devDependencies": {
+  }
+}
