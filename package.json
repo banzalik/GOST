@@ -25,5 +25,6 @@
   },
   "private": false,
   "devDependencies": {
+    "jscs": "^1.7.3"
   }
 }
