@@ -25,3 +25,5 @@
 
 ## У вас нет той технологии, которой я пользуюсь сейчас!
 Напишите об этом в [Issue](https://github.com/banzalik/GOST/issues)
+[travis-img]: https://travis-ci.org/banzalik/gost.svg?branch=master
+[travis-url]: https://travis-ci.org/banzalik/gost
