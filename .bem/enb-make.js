@@ -93,8 +93,8 @@ function getLevels(config) {
 
 function getDevelopLevels(config) {
     return [
-        'blocks-gost',
-        'blocks-docs'
+        'blocks-gost'
+        //,'blocks-docs'
     ].map(function (level) {
             return config.resolvePath(level);
         });
