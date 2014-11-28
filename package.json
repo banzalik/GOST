@@ -8,7 +8,7 @@
     "url": "https://github.com/banzalik/gost.git"
   },
   "engines": {
-    "node": "0.9 | 0.10"
+    "node": "0.10"
   },
   "scripts": {
     "build": "./node_modules/enb/bin/enb make",
